@@ -1,11 +1,12 @@
 <?php
 return [
     'GET' => [
-        '/' => ['HomeController', 'index'],
-        '/contact' => ['StaticContentController', 'index'],
-        '/productos' => ['ProductosController', 'mostar'],
+        '/' => ['StaticContentController', 'renderContent', "home", ["title" => "Home"]],
+        '/contact' => ['StaticContentController', 'renderContent', 'contact', ["title" => "Contact"]],
+        '/new-client' => ['StaticContentController', 'renderContent', 'new-client', ["title" => "Adding client..."]],
+        '/new-added-client' => ['ClientsController', 'confirmation', 'new-added-client', ["title" => "Added!"]],
     ],
     'POST' => [
-        '/contact' => ['ContactController', 'submit'],
+        '/new-client' => ['ClientsController', 'addNewClient'],
     ],
 ];
