@@ -16,7 +16,7 @@
     <p class="text-gray-500 dark:text-gray-400 bg-red-300 rounded pr-2 pl-2">Remote adress: <?php echo $_SERVER["REMOTE_ADDR"]; ?></p>
     <p class="text-gray-500 dark:text-gray-400 bg-blue-300 rounded pr-2 pl-2">Current dir: <?php echo __DIR__;  ?></p>
     <p class="text-gray-500 dark:text-gray-400 bg-cyan-300 rounded pr-2 pl-2">Script file launched: <?php echo $_SERVER["SCRIPT_FILENAME"]; ?></p>
-    <p class="text-gray-500 dark:text-gray-400 bg-purple-300 rounded pr-2 pl-2">Triggered Controller: <?php echo $controller_name ?? "None controller selected!"; ?></p>
+    <p class="text-gray-500 dark:text-gray-400 bg-purple-300 rounded pr-2 pl-2">Triggered Controller: <?php echo $ControllerClass ?? "None controller selected!"; ?></p>
   </div>
 </div>
 </body>
