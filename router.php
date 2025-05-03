@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__ . '/controllers/HomeController.php';
-require_once __DIR__ . '/controllers/StaticContentController.php';
 require_once __DIR__ . '/partials/view.php';
 
 $routes = require_once  __DIR__ . '/routes.php';
@@ -12,15 +10,15 @@ $content_route = __DIR__ . '/views';
 
 
 if (array_key_exists($route, $routes[$method])) {
-    [$controllerClass, $controllerMethod] = $routes[$method][$route];
-    require_once __DIR__ . "/controllers/{$controllerClass}.php";
-    $controller = new $controllerClass();
-    $parent_content = $controller -> $controllerMethod();
+    [$ControllerClass, $controllerMethod, $name, $data] = $routes[$method][$route];
+    require_once __DIR__ . "/controllers/{$ControllerClass}.php";
+    $controller = new $ControllerClass();
+    echo $controller -> $controllerMethod($name, $data);
 
 
 } else {
-    $parent_content = __DIR__ . '/view/404.php';
+    require_once __DIR__ . "/controllers/StaticContentController.php";
+    $controller = new StaticContentController();
+    echo $controller -> renderContent('404', ["title" => "Not Found!"]);
+    include __DIR__ . '/debug.php';
 }
-
-include __DIR__ . '/partials/layout.php';
-include __DIR__ . '/debug.php';
