@@ -59,7 +59,7 @@
           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
           <path d="M22 16.92V21a2 2 0 0 1-2.18 2 19.72 19.72 0 0 1-8.63-3.11A19.5 19.5 0 0 1 3.11 10.8 19.72 19.72 0 0 1 0 2.18 2 2 0 0 1 2.09 0h4.91a2 2 0 0 1 2 1.72c.14 1.27.44 2.51.9 3.7a2 2 0 0 1-.45 2.11L7.91 9.09a16 16 0 0 0 6 6l1.56-1.56a2 2 0 0 1 2.11-.45c1.19.46 2.43.76 3.7.9A2 2 0 0 1 22 16.92z" />
         </svg>
-        <span class="text-gray-700 font-medium">+1 234 567 890</span>
+        <span class="text-gray-700 font-medium">+52 938 387 5255</span>
       </div>
 
       <div class="flex items-center space-x-4">
@@ -69,7 +69,7 @@
           <path d="M4 4h16v16H4z" />
           <polyline points="22,6 12,13 2,6" />
         </svg>
-        <span class="text-gray-700 font-medium">contacto@ejemplo.com</span>
+        <span class="text-gray-700 font-medium">contact@seecware.com</span>
       </div>
 
       <div class="flex items-start space-x-4">
@@ -79,7 +79,7 @@
           <path d="M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 0 1 18 0z" />
           <circle cx="12" cy="10" r="3" />
         </svg>
-        <span class="text-gray-700 font-medium">Calle Ficticia 123, Ciudad, País</span>
+        <span class="text-gray-700 font-medium">Calle Las Almendras 19, Loc. Hobomó, San Francisco de Campeche</span>
       </div>
     </div>
   </div>
