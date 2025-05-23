@@ -20,5 +20,4 @@ if (array_key_exists($route, $routes[$method])) {
     require_once __DIR__ . "/controllers/StaticContentController.php";
     $controller = new StaticContentController();
     echo $controller -> renderContent('404', ["title" => "Not Found!"]);
-    include __DIR__ . '/debug.php';
 }
