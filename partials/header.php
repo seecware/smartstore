@@ -1,8 +1,8 @@
 <header class="bg-white shadow-md">
   <div class="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
     <!-- Logo + Nombre -->
-    <a href="https://github.com/seecware" target="_blank" rel="noopener noreferer" class="flex items-center space-x-2">
-      <img src="/assets/logo.png" alt="Logo" class="h-8 w-8">
+    <a href="https://github.com/seecware" target="_blank" rel="noopener noreferer" class=" flex items-center space-x-2">
+      <img src="/assets/logo.png" alt="Logo" class="rounded-full h-8 w-8">
       <span class="text-xl font-semibold text-gray-800">SmartStore</span>
     </a>
 
