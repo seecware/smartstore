@@ -1,6 +1,5 @@
 <main class="p-6 bg-gray-100 min-h-screen">
-  <h1 class="text-2xl font-bold mb-6 text-gray-800">Main Applications</h1>
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+  <div class="max-w-screen-xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
 
     <!-- POS -->
     <a href="/pos" class="bg-white shadow-md rounded-xl p-4 flex flex-col items-center justify-center hover:bg-blue-50 transition">
